@@ -3,7 +3,7 @@
 
 ## 项目展示
 ### 演示视频
-<video src="assets/demo.mp4" controls width="700"></video>
+项目完整操作演示：https://www.bilibili.com/video/BV1zh9TBXEGH/
 
 ### 运行截图
 ![Excel测试报告效果](assets/report.png)
