@@ -47,22 +47,24 @@
 4. 拥有可用的ModelScope Token与AI判定模型密钥
 
 ## 使用方法
-### 1. 配置本地信息
+### 1. 配置AutoGLM环境，参考[AutoGLM使用说明](./README_AutoGLM.md)
+
+### 2. 配置本地信息
 新建config.sh文件，填写个人API信息
 export AUTOGLM_KEY="你的ModelScope Token"
 export AI_API_KEY="你的AI判定接口Key"
 export AI_MODEL="你的模型ID"
 
-### 2. 加载配置信息
+### 3. 加载配置信息
 source config.sh
 
-### 3. 编写测试用例
+### 4. 编写测试用例
 编辑test_cases.csv，格式如下：
 用例ID,步骤,预期结果
 APP-001,打开应用,成功进入应用首页
 APP-002,点击我的,成功进入个人中心页面
 
-### 4. 一键执行测试
+### 5. 一键执行测试
 ./run.sh test_cases.csv
 
 ## 报告说明
