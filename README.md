@@ -6,9 +6,7 @@
 <video src="assets/demo.mp4" controls width="700"></video>
 
 ### 运行截图
-![脚本执行过程](assets/run.png)
 ![Excel测试报告效果](assets/report.png)
-![手机操作效果](assets/device.png)
 
 ## 项目介绍
 本项目依托AI大模型自动完成Android手机操作，无需编写控件定位代码，通过读取CSV测试用例，自动执行操作步骤、获取界面结果，并由AI完成PASS/FAIL判定，最终生成可在Excel中正常查看的测试报告，同时支持自动设置与恢复设备分辨率。
